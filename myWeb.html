@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Portfolio Website</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="Image/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="CSS/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel='stylesheet' type='text/css' media='screen' href='CSS/myWeb.css'>
+</head>
+
+<body>
+
+
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                Jishan
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="ri-home-5-line"></i> Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="ri-trophy-line"></i> Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">
+                            <i class="ri-book-open-line"></i> Qualification
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="ri-briefcase-line"></i> Services
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class="ri-image-2-line"></i> Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="ri-chat-3-line"></i> Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+                <!-- Close button -->
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+
+            </div>
+
+            <div class="nav__buttons">
+
+                <!-- themes change -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <!-- toggle buttons -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-4-line"></i>
+                </div>
+            </div>
+
+
+
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid section__border">
+                <div class="home__data grid">
+                    <h1 class="home__title">
+                        Hi, I'm <br> Jishan Shaikh <br>
+                       <span id="mytext"></span> <br>
+                        <!-- Based In Peru <br> -->
+                    </h1>
+
+                    <div class="home__blob grid">
+                        <div class="home__perfil">
+                            <img src="Image/perfil.png" alt="Home Perfil">
+                        </div>
+
+                        <img src="Image/shape-wawes.svg" alt="" class="home__shape-wawes">
+                        <img src="Image/shape-circle.svg" alt="" class="home__shape-circle">
+
+                    </div>
+
+                    <ul class="home__social">
+                        <a href="https://www.linkedin.com/in/jishan-shaikh-9ba914237" target="_blank" class="home__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                        <a href="https://github.com/" target="_blank" class="home__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                        <a href="https://dribbble.com/" target="_blank" class="home__social-link">
+                            <i class="ri-dribbble-line"></i>
+                        </a>
+                    </ul>
+                </div>
+
+                <!--==================== HOME INFO 1====================-->
+                <div class="home__info">
+                    <div>
+                        <h3 class="home__info-title">
+                            BIOGRAPHY
+                        </h3>
+                        <p class="home__info-description">
+                            Hi, I'm Jishan Shaikh, Frontend Developer.
+                            Passionate about designing beautiful webinterfaces.
+                            My goal is to create visually appealing and responsive designs that are accessible to all users.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="home__info-title">
+                            CONTACT
+                        </h3>
+                        <p class="home__info-description">
+                            Ahmedabad, Gujarat <br>
+                            jishan.shaikh0618@email.com <br>
+                            +91 8469135566 <br>
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="home__info-title">
+                            SERVICES
+                        </h3>
+                        <p class="home__info-description">
+                            Website Design and Development <br>
+                            UI/UX Design <br>
+                            Web Application Development <br>
+                        </p>
+                    </div>
+                </div>
+
+                <!--==================== HOME INFO 2====================-->
+
+                <div class="home__info">
+                    <div>
+                        <h3 class="home__info-title">
+                            YEARS OF EXPERIENCE
+                        </h3>
+                        <p class="home__info-number">
+                            0+
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="home__info-title">
+                            COMPLETED PROJECTS
+                        </h3>
+                        <p class="home__info-number">
+                            5+
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="home__info-title">
+                            MY RESUME
+                        </h3>
+                        <a download="" href="Resume/Jishan_Shaikh_Resume.pdf" class="projects__button btnz">
+                            Download CV <i class="ri-download-2-line"></i>
+                        </a>
+                        <!-- <p class="home__info-number">
+                            07+
+                        </p> -->
+                    </div>
+
+
+                </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">
+                Skills
+            </h2>
+
+            <span class="section__subtitle">
+                My favorite skills
+            </span>
+
+            <div class="skills__container container grid section__border">
+                <!--==================== SKILLS 1====================-->
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-braces-line"></i>Frontend Developer
+                    </h3>
+
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills_blob myclass">
+                                <img src="Image/html-1.svg" alt="Skill Image">
+                            </div>
+                            <h3 class="skills__name">HTML</h3>
+                            <span class="skills__subtitle">
+                                Intermediate
+                            </span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills_blob myclass">
+                                <img src="Image/css-3.svg" alt="Skill Image">
+                            </div>
+                            <h3 class="skills__name">CSS</h3>
+                            <span class="skills__subtitle">
+                                Advanced
+                            </span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills_blob myclass">
+                                <img src="Image/logo-javascript.svg" alt="Skill Image">
+                            </div>
+                            <h3 class="skills__name">JavaScript</h3>
+                            <span class="skills__subtitle">
+                                Intermediate
+                            </span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills_blob myclass">
+                                <img src="Image/angular-icon-1.svg" alt="Skill Image">
+                            </div>
+                            <h3 class="skills__name">Angular</h3>
+                            <span class="skills__subtitle">
+                                Intermediate
+                            </span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills_blob myclass">
+                                <img src="Image/git-icon.svg" alt="Skill Image">
+                            </div>
+                            <h3 class="skills__name">Git</h3>
+                            <span class="skills__subtitle">
+                                Intermediate
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+                <!--==================== SKILLS 2====================-->
+                <div class="skills__content mycon">
+                    <h3 class="skills__title mytit">
+                        <i class="ri-code-s-slash-line"></i> Programming Languages
+                    </h3>
+
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills_blob myclass">
+                                <img src="Image/c-1.svg" alt="Skisll Image">
+                            </div>
+                            <h3 class="skills__name">C</h3>
+                            <span class="skills__subtitle">
+                                Intermediate
+                            </span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills_blob myclass">
+                                <img src="Image/c.svg" alt="Skisll Image">
+                            </div>
+                            <h3 class="skills__name">C++</h3>
+                            <span class="skills__subtitle">
+                                Intermediate
+                            </span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills_blob myclass">
+                                <img src="Image/java-14.svg" alt="Skisll Image">
+                            </div>
+                            <h3 class="skills__name">Java</h3>
+                            <span class="skills__subtitle">
+                                Intermediate
+                            </span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills_blob myclass">
+                                <img src="Image/python-5.svg" alt="Skisll Image">
+                            </div>
+                            <h3 class="skills__name">Python</h3>
+                            <span class="skills__subtitle">
+                                Intermediate
+                            </span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills_blob myclass">
+                                <img src="Image/php-1.svg" alt="Skisll Image">
+                            </div>
+                            <h3 class="skills__name">PHP</h3>
+                            <span class="skills__subtitle">
+                                Intermediate
+                            </span>
+                        </div>
+
+
+
+                    </div>
+
+
+
+                </div>
+
+                <!---->
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-database-2-line"></i>Database
+                    </h3>
+
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills_blob myclass">
+                                <img src="Image/mongodb-icon-1.svg" alt="Skill Image">
+                            </div>
+                            <h3 class="skills__name">MongoDB</h3>
+                            <span class="skills__subtitle">
+                                Basic
+                            </span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills_blob myclass">
+                                <img src="Image/mysql-6.svg" alt="Skill Image">
+                            </div>
+                            <h3 class="skills__name">MySQL</h3>
+                            <span class="skills__subtitle">
+                                Basic
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+                <!---->
+
+        </section>
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">Experience & education</span>
+
+            <div class="qualification__container container grid section__border">
+                <!--==================== QUALIFICATION 1====================-->
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="ri-pencil-ruler-2-line"></i> Education
+                    </h3>
+
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                Bachelor Of Computer Application
+                            </h3>
+                            <span class="qualification__country">GLS University</span>
+                            <span class="qualification__year">2020 - 2023</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                Higher Secondary School
+                            </h3>
+                            <span class="qualification__country">Navi Gujarati Madhyamik Shala</span>
+                            <span class="qualification__year">2019 – 2020</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                Secondary School
+                            </h3>
+                            <span class="qualification__country">Navi Gujarati Madhyamik Shala</span>
+                            <span class="qualification__year">2017 – 2018
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== QUALIFICATION 2====================-->
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="ri-building-line"></i> Work
+                    </h3>
+
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                Software Engineer
+                            </h3>
+                            <span class="qualification__country">None</span>
+                            <span class="qualification__year">None</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                Web Designer/Web Application Developer
+                            </h3>
+                            <span class="qualification__country">None</span>
+                            <span class="qualification__year">None</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                Fontend Developer
+                            </h3>
+                            <span class="qualification__country">None</span>
+                            <span class="qualification__year">None</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img src="Image/shape-circle.svg" alt="qualification image" class="qualification__img">
+        </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">Services</h2>
+            <span class="section__subtitle">What i offer</span>
+
+            <div class="services__container container grid section__border">
+                <div class="services__card">
+                    <i class="ri-layout-4-line"></i>
+
+                    <h2 class="services__title">
+                        Software <br>
+                         Engineer
+                    </h2>
+
+                    <p class="services__description">
+                        I can design, develop, and maintain software applications
+                         for businesses, organizations, and individuals
+                    </p>
+
+                    <div class="services__border">
+
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <i class="ri-code-line"></i>
+
+                    <h2 class="services__title">
+                        Website - UI/UX <br>
+                        Designer
+                    </h2>
+
+                    <p class="services__description">
+                        I  can develop websites and web applications using
+                        various programming languages, frameworks, and technologies
+                    </p>
+
+                    <div class="services__border">
+
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <i class="ri-quill-pen-line"></i>
+
+                    <h2 class="services__title">
+                        Frontend<br>
+                         Developer
+                        
+
+                    </h2>
+
+                    <p class="services__description">
+                        I Can provides the best quality and at
+                        the request of the client, with professional
+                        work and customer support.
+                    </p>
+
+                    <div class="services__border">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PROJECTS ====================-->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">Most recent work</span>
+
+            <div class="container section__border">
+                <div class="projects__container swiper">
+                    <div class="swiper-wrapper">
+                        <!--==================== PROJECTS 1====================-->
+                        <div class="projects__content swiper-slide">
+                            <img src="Image/project1.jpg" alt="projects img" class="projects__img">
+
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h1 class="projects__title">Modern Website</h1>
+
+                                <a href="#" target="_blank" class="projects__button btn">
+                                    View demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PROJECTS 2====================-->
+                        <div class="projects__content swiper-slide">
+                            <img src="Image/project2.jpg" alt="projects img" class="projects__img">
+
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h1 class="projects__title">ECommerce Store</h1>
+
+                                <a href="#" target="_blank" class="projects__button btn">
+                                    View demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PROJECTS 3====================-->
+                        <div class="projects__content swiper-slide">
+                            <img src="Image/project3.jpg" alt="projects img" class="projects__img">
+
+                            <div>
+                                <span class="projects__subtitle">Design</span>
+                                <h1 class="projects__title">Application Design</h1>
+
+                                <a href="#" target="_blank" class="projects__button btn">
+                                    View demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PROJECTS 4====================-->
+                        <div class="projects__content swiper-slide">
+                            <img src="Image/project4.jpg" alt="projects img" class="projects__img">
+
+                            <div>
+                                <span class="projects__subtitle">Animation</span>
+                                <h1 class="projects__title">Animation Prototypes</h1>
+
+                                <a href="#" target="_blank" class="projects__button btn">
+                                    View demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Swiper Arraows -->
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== TESTIMONIAL ====================-->
+        <section class="testimonial section">
+            <h2 class="section__title">Testimonial</h2>
+            <span class="section__subtitle">My client saying</span>
+
+            <div class="container section__border">
+                <div class="testimonial__container swiper">
+                    <div class="swiper-wrapper">
+                        <!--==================== TESTIMONIAL 1====================-->
+                        <div class="testimonial__content swiper-slide">
+                            <p class="testimonial__description">
+                                “Working with Jishan is to give a good
+                                impression, I carry out my project at a good
+                                cost, with excellent quality and attention.
+                                Great service and recommended.”
+                            </p>
+
+                            <div>
+                                <h3 class="testimonial__name">Klay Harris</h3>
+                                <span class="testimonial__subtitle">Client</span>
+                            </div>
+                        </div>
+
+                        <!--==================== TESTIMONIAL 2====================-->
+                        <div class="testimonial__content swiper-slide">
+                            <p class="testimonial__description">
+                                “Working with Jishan is to give a good
+                                impression, I carry out my project at a good
+                                cost, with excellent quality and attention.
+                                Great service and recommended.”
+                            </p>
+
+                            <div>
+                                <h3 class="testimonial__name">Anna Chel</h3>
+                                <span class="testimonial__subtitle">Client</span>
+                            </div>
+                        </div>
+
+                        <!--==================== TESTIMONIAL 3====================-->
+                        <div class="testimonial__content swiper-slide">
+                            <p class="testimonial__description">
+                                “Working with Jishan is to give a good
+                                impression, I carry out my project at a good
+                                cost, with excellent quality and attention.
+                                Great service and recommended.”
+                            </p>
+
+                            <div>
+                                <h3 class="testimonial__name">Mary Lens</h3>
+                                <span class="testimonial__subtitle">Client</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Swiper Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <img src="Image/shape-wawes.svg" alt="testimonial img" class="testimonial__img">
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid section__border">
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        <i class="ri-chat-3-line"></i> Talk to me
+                    </h3>
+
+                    <div class="contact__info">
+                        <div class="contact__data">
+                            <span class="contact__data-title">Email</span>
+                            <span class="contact__data-info">jishan.shaikh0618@email.com</span>
+                        </div>
+
+                        <div class="contact__data">
+                            <span class="contact__data-title">Whatsapp</span>
+                            <span class="contact__data-info">+91 8469135566</span>
+
+                            <!-- Insert a real number plus country code -->
+                            <a href="#" target="_blank" class="contact__button">
+                                Write Me <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__data">
+                            <span class="contact__data-title">LinkedIn</span>
+                            <span class="contact__data-info">@Jishan Shaikh</span>
+
+                            <!-- Insert your brand name or profile -->
+                            <a href="https://www.linkedin.com/in/jishan-shaikh-9ba914237" target="_blank" class="contact__button">
+                                Check Profile <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        <i class="ri-send-plane-line"></i> Write me your project
+                    </h3>
+
+                    <form action="" class="contact__form" id="contact-form">
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Names</label>
+                            <input type="text" name="user_name" required placeholder="Write your names"
+                                class="contact__form-input" id="contact-name">
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Mail</label>
+                            <input type="email" name="user_email" required placeholder="Write your email"
+                                class="contact__form-input" id="contact-email">
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Project</label>
+                            <input type="text" name="user_project" required placeholder="Write your project"
+                                class="contact__form-input" id="contact-project">
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label class="contact__form-tag">Message</label>
+                            <textarea name="user_messages" id="contact-messages" placeholder="Write your message"
+                                class="contact__form-input"></textarea>
+                        </div>
+
+                        <p class="contact__message" id="contact-message"></p>
+
+                       
+                        <!-- <button id="btn" class="btnnn">
+                            <p id="btnText">Submit</p>
+                            <div class="check-box">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                                    <path fill="transparent" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                                </svg>
+                            </div>
+                        </button> -->
+
+                        <button type="submit" class="btnn">
+                            Submit
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Jishan Shaikh</h1>
+            <p>Frontend Developer</p>
+            <ul class="footer__list">
+                <li>
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
+
+                <li>
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+
+                <li>
+                    <a href="#projects" class="footer__link">Projects</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="https://www.linkedin.com/in/jishan-shaikh-9ba914237" target="_blank" class="footer__social-link">
+                    <i class="ri-linkedin-box-line"></i>
+                </a>
+
+                <a href="https://github.com/" target="_blank" class="footer__social-link">
+                    <i class="ri-github-line"></i>
+                </a>
+
+                <a href="https://dribbble.com/" target="_blank" class="footer__social-link">
+                    <i class="ri-dribbble-fill"></i>
+                </a>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; Copyright Jishan'scode. All rights reserved
+            </span>
+            
+        </div>
+    </footer>
+
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="JS/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="JS/swiper-bundle.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="JS/myWeb.js"></script>
+
+
+    
+    <!--=============== TYPED JS ===============-->
+
+     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+     <script>
+        // var typed = new Typed('#element', {
+        //   strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+        //   typeSpeed: 50,
+        // });
+    
+        var typed = new Typed("#mytext",{
+    
+      strings: ["Frontend Developer","Web Designer","Software Engineer"],
+      typeSpeed:100,
+      backSpeed:100,
+      backDelay:1000,
+      loop:true
+    
+    });
+      </script>
+
+</body>
+
+</html>
