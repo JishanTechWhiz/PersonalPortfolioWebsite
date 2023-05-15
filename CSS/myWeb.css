@@ -22,6 +22,7 @@
     --body-font: 'Roboto', sans-serif;
     /* --body-font: 'Poppins', sans-serif; */
     --title-font: 'Lora', serif;
+    
     /* --title-font: sans-serif; */
     --biggest-font-size: 1.5rem;
     --h1-font-size: 1.5rem;
@@ -497,8 +498,11 @@ align-items: flex-end;
 }
 
 .home__perfil img{
-    width: 150px;
+    width: 250px;
 }
+
+
+
 
 .home__shape-wawes,
 .home__shape-circle{
@@ -1709,6 +1713,10 @@ align-items: flex-end;
       .btnz .ri-download-2-line{
         font-size: 1.25rem;
       }
+
+      .home__perfil img{
+        width: 350px;
+    }
 
 
 
